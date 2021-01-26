@@ -71,7 +71,7 @@ const giveBurritos = async (
             receiver,
             `You received ${burritoCount} waffle${
                 plural ? "s" : ""
-            } from <@${giver}>.\nLeaderboard: https://hey.wafflestudio.com`
+            } from <@${giver}>.\nLeaderboard: http://hey.wafflestudio.com`
         );
     });
 
