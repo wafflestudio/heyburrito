@@ -19,7 +19,7 @@ services:
       - MONGODB_URL=mongodb://mongodb:27017
       - MONGODB_DATABASE=heywaffle
       - SLACK_API_TOKEN=SeeDocumentation
-      - "SLACK_EMOJI_INC=:waffle:"
+      - "SLACK_EMOJI_INC=:waffle:, :와플:"
       - SLACK_DAILY_CAP=5
       - WEB_PATH=/leaderboard/
       - THEME_URL=heywaffle-theme
